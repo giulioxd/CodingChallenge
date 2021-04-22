@@ -1,0 +1,74 @@
+/* immagine background */
+body {
+  background-image: url("background.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+/* riquadro principale trasparente */
+.sfondo {
+  background-color: rgba(0,0,0,0.5);
+  margin: auto;
+  padding: 70px;
+  width: 600px;
+  height: 450px;
+  border-radius: 10px;
+}
+/* caratteristiche header */
+header {
+  text-align: center;
+  color: limegreen;
+  font-family: Arial;
+}
+#titolone {
+  margin: 5px;
+}
+/* caratteristiche navigatore */
+nav {
+  background-color: limegreen;
+  height: 22px;
+  text-align: center;
+  margin: 0px;
+  padding: 5px;
+}
+/* specifiche sezione scelta monopattini */
+main section {
+  font-family: Poppins, sans-serif;
+  color: white;
+  margin: 1px;
+  padding: 1px;
+  line-height: 10px;
+}
+main p {
+  margin: 10px;
+}
+.monopattino {
+  display: inline-block;
+  margin: 0px;
+  margin-top: 25px;
+}
+.Gino22 {
+  background-color: pink;
+  width: 25%;
+  height: 10px;
+  border-radius: 5px;
+}
+.Mike24 {
+  background-color: red;
+  width: 10%;
+  height: 10px;
+  border-radius: 5px;
+}
+.Fede126 {
+  background-color: blue;
+  width: 40%;
+  height: 10px;
+  border-radius: 5px;
+}
+/* impostazioni footer */
+footer > div {
+  font-family: Arial;
+  font-size: 70%;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+}
